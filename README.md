@@ -1,6 +1,6 @@
 # gulp-tulp ![Gitter](https://badges.gitter.im/Join%20Chat.svg)
 
-![logo](assets/img/gt-github-logo.png)
+![logo](app/assets/img/gt-github-logo.png)
 
 > GULP-TULP - AngularJS
 
