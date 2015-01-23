@@ -1,16 +1,39 @@
-# gulp-tulp ![Gitter](https://badges.gitter.im/Join%20Chat.svg)
+# gulp-tulp  [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/voam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ![logo](app/assets/img/gt-github-logo.png)
+
+[Getting Started](#Getting-Started) | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license)
 
 > GULP-TULP - A [Gulp](http://gulpjs.com/) only build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow.
 
 ## :wrench: Getting Started
 
+[Download and install node.js 0.8.0+](http://nodejs.org/download/) before proceeding.
+
+All available quick start options: 
+
++ Clone the repo: `git clone git@github.com:z3bbster/gulp-tulp.git`.
++ Download the latest [release](https://github.com/z3bbster/gulp-tulp/zipball/master).
++ Clone in [Desktop](github-windows://openRepo/https://github.com/z3bbster/gulp-tulp).
+
+
 ## :postbox: Bug tracker
+
+Have a bug, enhancement, idea or question? Please create an issue here on GitHub!
+
+https://github.com/z3bbster/gulp-tulp/issues
 
 ## :busts_in_silhouette: Authors
 
+**z3bbster**
+
 ## :mega: Contributing
+
+1. Fork it
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Create new Pull Request
 
 ## :hammer: Copyright and license
 
