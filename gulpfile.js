@@ -25,23 +25,23 @@
 ////////////////////////////
 // LOAD REQUIRED PACKAGES //
 ////////////////////////////
-var gulp 		= require('gulp'),
-	del 		= require('del'),
-	bower 		= require('gulp-bower'),
-	imagemin 	= require('gulp-imagemin'),
-	ftp 		= require('gulp-ftp'),
-  minifyHTML = require('gulp-minify-html'),
-  minifyCSS = require('gulp-minify-css'),
-  prompt    = require('gulp-prompt'),
-  rev     = require('gulp-rev'),
-  uncss     = require('gulp-uncss'),
-  svgmin    = require('gulp-svgmin'),
-  uglify    = require('gulp-uglify'),
-  usemin    = require('gulp-usemin'),
-  gutil     = require('gulp-util'),
-  watch     = require('gulp-watch'),
-	browserSync = require('browser-sync'),
-	reload      = browserSync.reload;
+var gulp 		    = require('gulp'),
+    del 		    = require('del'),
+    bower 		  = require('gulp-bower'),
+    imagemin 	  = require('gulp-imagemin'),
+    ftp         = require('gulp-ftp'),
+    minifyHTML  = require('gulp-minify-html'),
+    minifyCSS   = require('gulp-minify-css'),
+    prompt      = require('gulp-prompt'),
+    rev         = require('gulp-rev'),
+    uncss       = require('gulp-uncss'),
+    svgmin      = require('gulp-svgmin'),
+    uglify      = require('gulp-uglify'),
+    usemin      = require('gulp-usemin'),
+    gutil       = require('gulp-util'),
+    watch       = require('gulp-watch'),
+    browserSync = require('browser-sync'),
+    reload      = browserSync.reload;
 
 //var gulp = require('gulp'), plugins = require('gulp-load-plugins')();
 
@@ -49,24 +49,24 @@ var gulp 		= require('gulp'),
 // DEVELOPMENT DEFAULT PATHS //
 ///////////////////////////////
 var paths = {
-  index: 'app/index.html',
-  scripts: 'app/js/**/*',
-  styles: 'app/css/**/*',
-  assets: 'app/assets/**/*',
-  fonts: 'app/assets/fonts/**/*',
-  images: 'app/assets/img/**/*'
+  index:    'app/index.html',
+  scripts:  'app/js/**/*',
+  styles:   'app/css/**/*',
+  assets:   'app/assets/**/*',
+  fonts:    'app/assets/fonts/**/*',
+  images:    'app/assets/img/**/*'
 };
 
 ////////////////////////////////
 // DISTRUBUTION DEFAULT PATHS //
 ////////////////////////////////
 var dPaths = {
-  index: 'dist/index.html',
-  scripts: 'dist/js/**/*',
-  styles: 'dist/css/**/*',
-  assets: 'dist/assets/**/*',
-  fonts: 'dist/assets/fonts/**/*',
-  images: 'dist/assets/img/**/*'
+  index:    'dist/index.html',
+  scripts:  'dist/js/**/*',
+  styles:   'dist/css/**/*',
+  assets:   'dist/assets/**/*',
+  fonts:    'dist/assets/fonts/**/*',
+  images:   'dist/assets/img/**/*'
 };
 
 
