@@ -1,4 +1,4 @@
-# gulp-tulp ![node](https://img.shields.io/node/v/gh-badges.svg) ![bower](https://img.shields.io/bower/v/bootstrap.svg) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/voam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# gulp-tulp ![node](https://img.shields.io/node/v/gh-badges.svg) ![bower](https://img.shields.io/bower/v/bootstrap.svg) ![issues](https://img.shields.io/github/issues-raw/badges/shields.svg) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/voam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ![logo](app/assets/img/gt-github-logo.png)
 
