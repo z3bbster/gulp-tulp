@@ -141,7 +141,7 @@ gulp.task('scripts', function () {
 });
 
 // process images, vector assets files and return the stream.
-gulp.task('images', function () {
+gulp.task('imagemin', function () {
     return gulp.src(paths.assets)
     // Pass in options to the task
     .pipe(imagemin({
