@@ -2,7 +2,7 @@
 
 ![logo](app/assets/img/gt-github-logo.png)
 
-[Getting Started](#Getting-Started) | [Bug tracker](https://github.com/z3bbster/gulp-tulp/issues) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license)
+[Getting Started](#Getting-Started) | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license) | [Submit Idea](https://github.com/z3bbster/gulp-tulp/issues)
 
 > GULP-TULP - A [Gulp](http://gulpjs.com/) only build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow.
 
