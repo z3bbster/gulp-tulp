@@ -1,10 +1,22 @@
-# gulp-tulp [![Dependency Status](https://gemnasium.com/z3bbster/gulp-tulp.svg)](https://gemnasium.com/z3bbster/gulp-tulp) gemnasium[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/voam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# gulp-tulp [![Dependency Status](https://gemnasium.com/z3bbster/gulp-tulp.svg)](https://gemnasium.com/z3bbster/gulp-tulp) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/voam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ![logo](app/assets/img/gt-github-logo.png)
 
 [Getting Started](#Getting-Started) | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license)
 
 > GULP-TULP - A [Gulp](http://gulpjs.com/) only build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow.
+
+## :wrench: Getting Started
+
+[Download and install node.js 0.8.0+](http://nodejs.org/download/) before proceeding.
+
+All available quick start options: 
+
++ Clone the repo: `git clone git@github.com:z3bbster/gulp-tulp.git`.
++ Download the latest [release](https://github.com/z3bbster/gulp-tulp/zipball/master).
++ Clone in [Desktop](github-windows://openRepo/https://github.com/z3bbster/gulp-tulp).
+
+List of all available and future gulp-tulp commands:
 
 - [x] `gulp server:dev` - Development webserver with live reload
 - [x] `gulp server:dist` - Distrubution webserver with live reload
@@ -19,17 +31,6 @@
 - [ ] `gulp bump` - version bump major, minor support
 - [ ] `gulp git` - full git support
 - [x] File revision support
-
-## :wrench: Getting Started
-
-[Download and install node.js 0.8.0+](http://nodejs.org/download/) before proceeding.
-
-All available quick start options: 
-
-+ Clone the repo: `git clone git@github.com:z3bbster/gulp-tulp.git`.
-+ Download the latest [release](https://github.com/z3bbster/gulp-tulp/zipball/master).
-+ Clone in [Desktop](github-windows://openRepo/https://github.com/z3bbster/gulp-tulp).
-
 
 ## :postbox: Bug tracker
 
