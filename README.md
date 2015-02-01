@@ -1,5 +1,7 @@
 # gulp-tulp [![Dependency Status](https://gemnasium.com/z3bbster/gulp-tulp.svg)](https://gemnasium.com/z3bbster/gulp-tulp) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/voam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+[![Join the chat at https://gitter.im/z3bbster/gulp-tulp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/gulp-tulp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![logo](app/assets/img/gt-github-logo.png)
 
 [Getting Started](#Getting-Started) | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license) | [Submit Idea](https://github.com/z3bbster/gulp-tulp/issues)
