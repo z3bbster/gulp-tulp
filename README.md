@@ -1,10 +1,24 @@
-# gulp-tulp [![Dependency Status](https://gemnasium.com/z3bbster/gulp-tulp.svg)](https://gemnasium.com/z3bbster/gulp-tulp) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/voam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# gulp-tulp [![Dependency Status](https://gemnasium.com/z3bbster/gulp-tulp.svg)](https://gemnasium.com/z3bbster/gulp-tulp) gemnasium[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/voam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ![logo](app/assets/img/gt-github-logo.png)
 
 [Getting Started](#Getting-Started) | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license)
 
 > GULP-TULP - A [Gulp](http://gulpjs.com/) only build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow.
+
+- [x] `gulp server:dev` - Development webserver with live reload
+- [x] `gulp server:dist` - Distrubution webserver with live reload
+- [x] `gulp server:doc` - Documentation webserver with live reload
+- [x] `gulp server:dev` - Automatically watch all development files
+- [x] `gulp bower` or `gulp bower:dev` -  bower support install and update components
+- [x] `gulp server:dev` - Minify HTML, CSS, JS files
+- [x] `gulp imagemin` - Optimize graphical bitmap and vector assets 
+- [x] `gulp less` - LESS preprocessor task with live reload
+- [ ] `gulp ng-annotate` - AngularJS auto ng-annotate support
+- [ ] `gulp ng-templateCache` - AngularJS auto templateCache support
+- [ ] `gulp bump` - version bump major, minor support
+- [ ] `gulp git` - full git support
+- [x] File revision support
 
 ## :wrench: Getting Started
 
@@ -33,7 +47,7 @@ https://github.com/z3bbster/gulp-tulp/issues
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Create new Pull Request
+5. Create new Pull Requestnpm update
 
 ## :hammer: Copyright and license
 
