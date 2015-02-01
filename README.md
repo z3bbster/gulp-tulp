@@ -2,13 +2,13 @@
 
 ![logo](app/assets/img/gt-github-logo.png)
 
-[Getting Started](#:wrench:-Getting-Started) | [Bug tracker](https://github.com/z3bbster/gulp-tulp/issues) | [Authors](#:busts_in_silhouette:-authors) | [Contributing](#:mega:-contributing) | [License](#:hammer:-copyright-and-license)
+[Getting Started](#Getting-Started) | [Bug tracker](https://github.com/z3bbster/gulp-tulp/issues) | [Authors](#:busts_in_silhouette:-authors) | [Contributing](#:mega:-contributing) | [License](#:hammer:-copyright-and-license)
 
 > GULP-TULP - A [Gulp](http://gulpjs.com/) only build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow.
 
-## :wrench: Getting Started
+## Getting Started
 
-[Download and install node.js 0.8.0+](http://nodejs.org/download/) before proceeding.
+:wrench: [Download and install node.js 0.8.0+](http://nodejs.org/download/) before proceeding.
 
 All available quick start options: 
 
@@ -32,17 +32,17 @@ List of all available and future gulp-tulp commands:
 - [ ] `gulp git` - full git support
 - [x] File revision support
 
-## :postbox: Bug tracker
+## Bug tracker
 
-Have a bug, enhancement, idea or question? Please create an issue here on GitHub!
+:postbox: Have a bug, enhancement, idea or question? Please create an issue here on GitHub!
 
 https://github.com/z3bbster/gulp-tulp/issues
 
-## :busts_in_silhouette: Authors
+## Authors
 
-**z3bbster**
+:busts_in_silhouette: **z3bbster**
 
-## :mega: Contributing
+## Contributing
 
 1. Fork it
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -50,7 +50,7 @@ https://github.com/z3bbster/gulp-tulp/issues
 4. Push to the branch: `git push origin my-new-feature`
 5. Create new Pull Requestnpm update
 
-## :hammer: Copyright and license
+## Copyright and license
 
 Copyright (c) 2015, z3bbster
 All rights reserved.
