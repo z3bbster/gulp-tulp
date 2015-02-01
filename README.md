@@ -83,6 +83,3 @@ either expressed or implied, of the FreeBSD Project.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/z3bbster/gulp-tulp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/z3bbster/gulp-tulp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
