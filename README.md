@@ -2,7 +2,7 @@
 
 ![logo](app/assets/img/gt-github-logo.png)
 
-[Getting Started](#getting-started) | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license) | [Submit Idea](https://github.com/z3bbster/gulp-tulp/issues)
+[Getting Started](#getting-started) | [Roadmap](#roadmap)  | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license) | [Submit Idea](https://github.com/z3bbster/gulp-tulp/issues)
 
 > GULP-TULP - A [Gulp](http://gulpjs.com/) only build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow.
 
@@ -31,6 +31,14 @@ List of all available and future gulp-tulp commands:
 - [ ] `gulp bump` - version bump major, minor support
 - [ ] `gulp git` - full git support
 - [x] File revision support
+
+## Roadmap
+
+- [] Seperate gulptask files in gulp folder
+- [] Better and useful Gulp error handling
+- [] Dgeni documentation generation
+- [] Icon webfont generation
+- [] Speed test support
 
 ## Bug tracker
 
