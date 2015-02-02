@@ -34,11 +34,11 @@ List of all available and future gulp-tulp commands:
 
 ## Roadmap
 
-- [] Seperate gulptask files in gulp folder
-- [] Better and useful Gulp error handling
-- [] Dgeni documentation generation
-- [] Icon webfont generation
-- [] Speed test support
+- [ ] Seperate gulptask files in gulp folder
+- [ ] Better and useful Gulp error handling
+- [ ] Dgeni documentation generation
+- [ ] Icon webfont generation
+- [ ] Speed test support
 
 ## Bug tracker
 
