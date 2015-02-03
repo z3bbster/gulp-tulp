@@ -2,7 +2,7 @@
 
 ![logo](app/assets/img/gt-github-logo.png)
 
-[Getting Started](#Getting-Started) | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license) | [Submit Idea](https://github.com/z3bbster/gulp-tulp/issues)
+[Getting Started](#getting-started) | [Roadmap](#roadmap)  | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license) | [Submit Idea](https://github.com/z3bbster/gulp-tulp/issues)
 
 > GULP-TULP - A [Gulp](http://gulpjs.com/) only build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow.
 
@@ -21,16 +21,42 @@ List of all available and future gulp-tulp commands:
 - [x] `gulp server:dev` - Development webserver with live reload
 - [x] `gulp server:dist` - Distrubution webserver with live reload
 - [x] `gulp server:doc` - Documentation webserver with live reload
-- [x] `gulp server:dev` - Automatically watch all development files
+- [x] `gulp webdriver_update` - Download and update the selenium driver
+- [x] `gulp webdriver_standalone` - Start a standalone server
+- [x] `gulp protractor` - Run your angular protractor tests with gulp
 - [x] `gulp bower` or `gulp bower:dev` -  bower support install and update components
-- [x] `gulp server:dev` - Minify HTML, CSS, JS files
+- [x] `gulp useref` - Minify HTML, CSS, JS files
 - [x] `gulp imagemin` - Optimize graphical bitmap and vector assets 
+- [x] `gulp cdnizer` - Cdnizer for css/js links and scripts 
+- [x] `gulp jshint` - Detect errors and potential problems in your JavaScript  
 - [x] `gulp less` - LESS preprocessor task with live reload
-- [ ] `gulp ng-annotate` - AngularJS auto ng-annotate support
-- [ ] `gulp ng-templateCache` - AngularJS auto templateCache support
-- [ ] `gulp bump` - version bump major, minor support
-- [ ] `gulp git` - full git support
+- [x] `gulp ng-annotate` - AngularJS auto ng-annotate support
+- [x] `gulp ng-templateCache` - AngularJS auto templateCache support
+- [x] `gulp bump` - version bump major, minor support
+- [x] `gulp deploy:ftp` - Upload dist folder to desired FTP
+- [x] 'pagespeed:desktop' or 'pagespeed:mobile' - different PageSpeed Insights modes
+- [x] `gulp zip` or `gulp zip:dist` - Zip the folder(s) with weeknumber support
+- [x] `gulp git:src` - full git add, commit, remote, push, status support
+- [x] `gulp references` - Open reference websites of AngularJS, Bootstrap, Font-awesome
+- [x] `gulp markdown` - Gulp-markdown support
+- [x] `gulp menu` - Gulp-menu support
+- [x] Dist,tmp,documenation folder cleanup support
 - [x] File revision support
+- [x] File size support
+- [x] Gulp-handlebars support
+- [x] Gulp-logger support
+- [x] Gulp-license-finder support
+- [x] Gulp-config-sync to update cfg files
+
+## Roadmap
+
+- [ ] Create gulp-tulp as gobal npm package 
+- [ ] Seperate gulptask files in gulp folder
+- [ ] Better and useful Gulp error handling
+- [ ] Dgeni documentation generation
+- [ ] Icon webfont generation
+- [ ] Gulp-local-screenshots support
+- [ ] Replace flatten with gulp-angular-dep
 
 ## Bug tracker
 
@@ -44,11 +70,11 @@ https://github.com/z3bbster/gulp-tulp/issues
 
 ## Contributing
 
-1. Fork it
+1. Fork it `git fork git@github.com:z3bbster/gulp-tulp.git`
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Create new Pull Requestnpm update
+5. Create new Pull Request
 
 ## Copyright and license
 
@@ -82,4 +108,3 @@ of the authors and should not be interpreted as representing official policies,
 either expressed or implied, of the FreeBSD Project.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/z3bbster/gulp-tulp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
