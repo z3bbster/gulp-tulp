@@ -57,14 +57,6 @@ List of all available and future gulp-tulp commands:
 - [ ] Icon webfont generation
 - [ ] Gulp-local-screenshots support
 - [ ] Replace flatten with gulp-angular-dep
-
-## Roadmap
-
-- [ ] Create gulp-tulp as gobal npm package 
-- [ ] Seperate gulptask files in gulp folder
-- [ ] Better and useful Gulp error handling
-- [ ] Dgeni documentation generation
-- [ ] Icon webfont generation
 - [ ] Speed test support
 
 ## Bug tracker
