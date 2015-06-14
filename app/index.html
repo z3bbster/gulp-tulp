@@ -1,53 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="nl" ng-app="myApp">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="icon" href="../../favicon.ico">
-	<title>Starter Template for Bootstrap</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MOM Gulp Buildsystem</title>
+    <meta name="description" content="bandenEmbed">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- build:css css/vendor.css -->
-	<!-- endbuild -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-	<!-- build:css1 css/main.css -->
-	<link rel="stylesheet" href="styles/main.css">
-	<!-- endbuild -->  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- build:css css/vendor.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css" />
+    <link rel="stylesheet" href="bower_components/angular-hotkeys/build/hotkeys.css" />
+    <!-- endbuild -->
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
 </head>
-<body>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-			<p class="text-center"><img src="assets/img/gt-github-logo.png" alt=""></p>
-			<h1>Welcome to gulp-tulp <span>build system</span>?</h1>
-			<hr>
-			<div class="panel panel-default">
-			<div class="panel-body">
-			Basic panel examplem
-			</div>
-			</div>
+<body ng-controller="homeCtrl">
+    <nav><a ui-sref="home">home</a> | <a ui-sref="help">help</a></nav>
+    <hr>
+    <ui-view></ui-view>
 
-			<div class="panel panel-primary">
-			<div class="panel-heading">
-			<h3 class="panel-title">Panel  title</h3>
-			</div>
-			<div class="panel-body">
-			Panel content
-			</div>
-			</div>
 
-			</div>
-		</div>
-	</div>
+    <!-- build:js js/vendor.js -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="bower_components/angular-hotkeys/build/hotkeys.js"></script>
+    <!-- endbuild -->
 
-	<!-- build:js js/vendor.js -->
-	<!-- endbuild -->
-
-	<!-- build:js1 js/app.js -->
-	<script src="js/app.js"></script>
-	<!-- endbuild -->
-
+    <!-- build:js js/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <!-- endbuild -->
+    
 </body>
 </html>

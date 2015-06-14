@@ -1,0 +1,18 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1>HOME</h1>
+			<hr>
+			<h3>hackernews</h3>
+			<li ng-repeat="post in posts.items">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class="url">{{ post.url }}</span>
+            <small> {{ post.points + " points"}} by {{ post.postedBy }} {{ post.postedAgo }} | {{ post.commentCount + " comments" }}</small>
+        </li>
+            <h3>image file</h3>
+            <img src="assets/img/tulp_soorten.jpg" alt="">
+            <h3>svg file</h3>
+            <img src="assets/vector/Flag_of_South_Afria.svg" alt="">
+		</div>
+	</div>
+</div>
