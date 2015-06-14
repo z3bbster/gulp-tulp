@@ -29,6 +29,10 @@ Date.prototype.getWeek = function() {
 ////////////////////////////
 // LOAD REQUIRED PACKAGES //
 ////////////////////////////
+
+// the glob to search for 
+var pluginsPatterns = ['gulp-*', 'del', 'browser-sync'];
+
 var gulp = require('gulp'),
     del = require('del'),
     browserSync = require('browser-sync'),
@@ -571,7 +575,7 @@ gulp.task('watch', function() {
 // ALL THE MAIN GULP TASKS //
 /////////////////////////////
 
-// THE DEFAULT TASK
+// THE DEFAULT TASK (Dev environment)
 gulp.task('default', ['server:dev', 'watch', 'references']);
 
 // THE BUILD TASK
@@ -585,7 +589,19 @@ gulp.task('build', ['useref'], function () {
 gulp.task('test', []);
 
 //THE DEPLOY TASK
-gulp.task('deploy', []);
+gulp.task('deploy', [], function () {
+  // Concatenates asset files from the build blocks inside the HTML
+  // Appends hash to extracted files app.css → app-098f6bcd.css
+  // Adds AngularJS dependency injection annotations
+  // Uglifies js files
+  // Minifies css files
+  // Brings back the previously filtered HTML files
+  // Parses build blocks in html to replace references to non-optimized scripts or stylesheets
+  // Rewrites occurences of filenames which have been renamed by rev
+  // Minifies html
+  // Creates the actual files
+  // Print the file sizes
+});
 
 
 // Run PageSpeed Insights Desktop Mode
