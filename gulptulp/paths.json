@@ -1,0 +1,40 @@
+{
+	"clean":{
+    "src": "./dist/**/*",
+    "deps": {
+    	"node": "./node_modules/**/*",
+    	"bower": "./app/bower_components/**/*"
+  	}
+  },
+  "scripts": {
+    "src": "./app/scripts/**/*",
+    "dest": "./dist/js/"
+  },
+  "styles": {
+    "src": "./app/css/*",
+    "dest": "./dist/css/min/"
+  },
+  "less": {
+    "src": "./app/less/main.less",
+    "dest": "./app/css/"
+  },
+  "assets": {
+    "all":"./app/assets/**/*",
+    "images":{ 
+      "src": "./app/assets/img/**/*",
+      "dest": "./dist/assets/img/"
+    },
+    "vector":{ 
+      "src": "./app/assets/vector/**/*",
+      "dest": "./dist/assets/vector/"
+    },
+    "font":{ 
+      "src": "./app/assets/font/**/*",
+      "dest": "./dist/assets/font/"
+    },
+    "sprite":{ 
+      "src": "./app/assets/sprite/**/*",
+      "dest": "./dist/assets/sprite/"
+    }
+  }
+}

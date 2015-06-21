@@ -1,10 +1,20 @@
-# gulp-tulp [![Dependency Status](https://gemnasium.com/z3bbster/gulp-tulp.svg)](https://gemnasium.com/z3bbster/gulp-tulp) [![Join the chat at https://gitter.im/z3bbster/gulp-tulp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/gulp-tulp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# gulp-tulp
 
-![logo](app/assets/img/gt-github-logo.png)
+[![Dependency Status](https://gemnasium.com/z3bbster/gulp-tulp.svg)](https://gemnasium.com/z3bbster/gulp-tulp) [![Join the chat at https://gitter.im/z3bbster/gulp-tulp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/z3bbster/gulp-tulp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+![logo](gulptulp/media/gt-github-logo.png)
 
 [Getting Started](#getting-started) | [Roadmap](#roadmap)  | [Bug tracker](#bug-tracker) | [Authors](#authors) | [Contributing](#contributing) | [License](#copyright-and-license) | [Submit Idea](https://github.com/z3bbster/gulp-tulp/issues)
 
-> GULP-TULP - A [Gulp](http://gulpjs.com/) only build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow.
+> GULP-TULP - A [Gulp](http://gulpjs.com/) only miniscule commandline build system for a fast, quick and easy no-nosense automated and enhance AngularJS web development workflow. There are over 20+ gulp tasks at your desposal to direct your app development and production/distrubution needs. 
+
+Supports for:
++ BrowserSync with live reload (no plugin required)
++ HTML, CSS,JS code minification
++ Less preprocessing
++ Graphic assets optimasation
++ Javascript code hinting
++ AngularJS specific tasks
 
 ## Getting Started
 
@@ -12,52 +22,40 @@
 
 All available quick start options: 
 
-+ Clone the repo: `git clone git@github.com:z3bbster/gulp-tulp.git`.
-+ Download the latest [release](https://github.com/z3bbster/gulp-tulp/zipball/master).
-+ Clone in [Desktop](github-windows://openRepo/https://github.com/z3bbster/gulp-tulp).
++ Create a new project folder `mkdir myproject`.
++ Browse to the project `cd myproject`.
++ Clone the gulp-tulp repo: `git clone git@github.com:z3bbster/gulp-tulp.git`.
++ Install node dependecies `npm install`.
++ Install bower dependecies `bower install`.
++ Start gulp-tulp default task `gulp` and begin development.
 
-List of all available and future gulp-tulp commands:
+*Example gulp-tulp help*
 
-- [x] `gulp server:dev` - Development webserver with live reload
-- [x] `gulp server:dist` - Distrubution webserver with live reload
-- [x] `gulp server:doc` - Documentation webserver with live reload
-- [x] `gulp webdriver_update` - Download and update the selenium driver
-- [x] `gulp webdriver_standalone` - Start a standalone server
-- [x] `gulp protractor` - Run your angular protractor tests with gulp
-- [x] `gulp bower` or `gulp bower:dev` -  bower support install and update components
-- [x] `gulp useref` - Minify HTML, CSS, JS files
-- [x] `gulp imagemin` - Optimize graphical bitmap and vector assets 
-- [x] `gulp cdnizer` - Cdnizer for css/js links and scripts 
-- [x] `gulp jshint` - Detect errors and potential problems in your JavaScript  
-- [x] `gulp less` - LESS preprocessor task with live reload
-- [x] `gulp ng-annotate` - AngularJS auto ng-annotate support
-- [x] `gulp ng-templateCache` - AngularJS auto templateCache support
-- [x] `gulp bump` - version bump major, minor support
-- [x] `gulp deploy:ftp` - Upload dist folder to desired FTP
-- [x] 'pagespeed:desktop' or 'pagespeed:mobile' - different PageSpeed Insights modes
-- [x] `gulp zip` or `gulp zip:dist` - Zip the folder(s) with weeknumber support
-- [x] `gulp git:src` - full git add, commit, remote, push, status support
-- [x] `gulp references` - Open reference websites of AngularJS, Bootstrap, Font-awesome
-- [x] `gulp markdown` - Gulp-markdown support
-- [x] `gulp menu` - Gulp-menu support
-- [x] Dist,tmp,documenation folder cleanup support
-- [x] File revision support
-- [x] File size support
-- [x] Gulp-handlebars support
-- [x] Gulp-logger support
-- [x] Gulp-license-finder support
-- [x] Gulp-config-sync to update cfg files
+<<<<<<< HEAD
+- [ ] Create gulp-tulp as gobal npm package 
+- [ ] Seperate gulptask files in gulp folder
+- [ ] Better and useful Gulp error handling
+=======
+![logo](gulptulp/media/gt-help.jpg)
+
+*Example gulp-tulp menu*
+
+![logo](gulptulp/media/gt-menu.jpg)
 
 ## Roadmap
 
 - [ ] Create gulp-tulp as gobal npm package 
-- [ ] Seperate gulptask files in gulp folder
-- [ ] Better and useful Gulp error handling
+- [x] Seperate gulptask files in gulp folder
+- [x] Better and useful Gulp error handling
+>>>>>>> miniscule
 - [ ] Dgeni documentation generation
 - [ ] Icon webfont generation
 - [ ] Gulp-local-screenshots support
 - [ ] Replace flatten with gulp-angular-dep
+<<<<<<< HEAD
 - [ ] Speed test support
+=======
+>>>>>>> miniscule
 
 ## Bug tracker
 
@@ -107,5 +105,3 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The views and conclusions contained in the software and documentation are those
 of the authors and should not be interpreted as representing official policies, 
 either expressed or implied, of the FreeBSD Project.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/z3bbster/gulp-tulp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

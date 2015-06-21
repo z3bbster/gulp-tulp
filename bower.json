@@ -1,25 +1,35 @@
 {
-  "name": "gulp-tulp",
-  "version": "0.0.1",
+  "name": "gulp-tulp2",
+  "version": "1.0.1",
+  "authors": [
+    "z3bbster"
+  ],
+  "description": "gulp-tulp is a gulp only miniscule build system for a fast, quick and easy no-nosense automated and enhance (AngularJS) web development workflow.",
+  "main": "gulpfile.js",
+  "keywords": [
+    "gulp",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/z3bbster/gulp-tulp",
   "dependencies": {
-    "angular": "~1.3.11",
-    "json3": "~3.3.1",
-    "es5-shim": "~4.0.5",
-    "angular-animate": "~1.3.11",
-    "angular-cookies": "~1.3.11",
-    "angular-loader": "~1.3.11",
-    "angular-messages": "~1.3.11",
-    "angular-resource": "~1.3.11",
-    "angular-route": "~1.3.11",
-    "angular-sanitize": "~1.3.11",
-    "angular-touch": "~1.3.11",
-    "ngstorage": "~0.3.0",
+    "angular": "~1.3.16",
+    "angular-animate": "~1.3.16",
+    "angular-messages": "~1.3.16",
+    "angular-resource": "~1.3.16",
+    "angular-sanitize": "~1.3.16",
+    "angular-loader": "~1.3.16",
+    "angular-touch": "~1.3.16",
+    "angular-bootstrap": "~0.13.0",
+    "angular-cookies": "~1.3.16",
+    "angular-hotkeys": "chieffancypants/angular-hotkeys#~1.4.5",
+    "angular-loading-bar": "~0.7.1",
+    "angular-ui-router": "~0.2.11",
     "animate.css": "~3.2.0",
-    "bootstrap3-typeahead": "~3.1.0",
-    "angular-ui-router": "~0.2.13",
+    "bootstrap": "~3.3.4",
     "font-awesome": "~4.3.0",
-    "bootstrap": "~3.3.1"
-  },
-  "devDependencies": {},
-  "appPath": "app"
+    "foundation": "~5.5.1",
+    "purecss": "~0.6.0",
+    "uikit": "~2.19.0"
+  }
 }
